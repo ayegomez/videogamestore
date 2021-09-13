@@ -1,0 +1,37 @@
+/*Variables*/
+$marronclaro:#C7CFB7;
+
+.texto{
+	display: flex;
+	justify-content: center;
+	&_palabraClave{
+	 text-align: center; 
+  	 color: darkred; 
+     letter-spacing: 15px;
+     font-size: 20px;
+     padding-top: 130px;
+	}
+	&_imgen{
+	height: 700px;
+	width: 500px;
+	}
+	&_parrafo_bgColor{
+		font-size: 20px;  
+		line-height: 30px;
+		text-align: center; 
+		word-spacing: 5px;
+		width: 250px;
+	}
+	&_parrafo_padding{
+		margin-top: 100px;
+	
+	}
+	&_parrafo_transition{
+		transition: width 2s;
+	}&_parrafo_transition:hover{
+		width: 300px;
+		background-color: $marronclaro
+	}
+}
+
+

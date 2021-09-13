@@ -1,0 +1,12 @@
+/*Tamaños generales*/
+/*mapa*/
+$size: (
+small:10px,
+medium:15px,
+big:20px
+);
+@each $lugar,$ubicacion in $size{
+	.size#{$lugar}{
+	font-size:$ubicacion;
+	}
+}

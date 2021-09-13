@@ -1,0 +1,6 @@
+/*Colores gral en linea*/
+@each $color in black,white, grey, green {
+	.#{$color} {
+		color: #{$color};
+	}
+}

@@ -1,0 +1,73 @@
+/*Variables*/
+$beige:#e2e1e0;
+
+/*GENERAL*/
+
+@mixin flex-end{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.end{
+  @include flex-end;
+}
+
+@mixin flex-start{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.start{
+  @include flex-start;
+}
+
+body {
+  background:$beige
+}
+.container-fluid {
+  padding: 0;
+}
+.encabezado{
+  color: darkred;
+  font-size: 25px;
+  padding: 10px;
+}
+span {
+  color: white;
+  font-size: 25px;
+}
+
+.png{
+  left: 400px;
+}
+/*Menu*/
+
+.navColor ul li{
+  color: white;
+}
+
+
+.navbar{
+  justify-content: flex-start;
+}
+/*carrousel*/
+.w-100 {
+  height: 600px;
+}
+
+/*FOOTER*/
+
+.footMargin{
+  padding: 10px;
+  margin: 10px;
+  }
+
+
+
+/*VISTA MOBILE*/
+@media only creen and (max-width: 768px){
+  .noMobile{
+    display: flex;
+    display: none;
+  }
+}
